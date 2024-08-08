@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Button = ({ children, type = "button", className }) => {
@@ -13,4 +14,11 @@ const Button = ({ children, type = "button", className }) => {
     </button>
   );
 };
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  type: PropTypes.string,
+  className: PropTypes.string,
+};
+
 export default Button;
