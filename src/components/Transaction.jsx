@@ -4,7 +4,7 @@ const Transaction = () => {
   return (
     <div className="flex items-end">
       <div className="flex-1">
-        <img src={logo1} alt="" loading="lazy"/>
+        <img src={logo1} alt="" loading="lazy" />
       </div>
       <div className="flex-1 mt-[5.5rem] bg-green-500">
         <div className="py-10 px-20">

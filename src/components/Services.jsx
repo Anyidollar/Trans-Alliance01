@@ -18,25 +18,24 @@ import Button from "./Button";
 import Payment from "./Payment";
 import Transaction from "./Transaction";
 import Report from "./Report";
-// import Break2 from "../Break2";
 
 const Services = () => {
   return (
     <main>
       <SendMoney />
       <About />
-      <div className=" flex justify-between  px-32 mt-14">
-        <div className="image1 small-s  relative w-1/3">
+      <div  className="flex justify-between px-32 mt-14">
+        <div className="image1 small-s relative w-1/3">
           <img className="" src={Image1} alt="Image 1" loading="lazy" />
-          <div className=" text-center left-10 absolute -bottom-4">
-            <p className="bg-neutral-300 p-2  rounded-lg">
+          <div className="text-center left-10 absolute -bottom-4">
+            <p className="bg-neutral-300 p-2 rounded-lg">
               SEPA Instant, SEPA & SWIFT
             </p>
           </div>
         </div>
-        <div className="image2  small-s rounded-lg relative w-1/3">
+        <div className="image2 small-s rounded-lg relative w-1/3">
           <img
-            className="h-300 rounded-lg  border-2 p-10 border-blue-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
+            className="h-300 rounded-lg border-2 p-10 border-blue-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
             src={Image2}
             alt="Image 2"
             loading="lazy"
@@ -46,14 +45,14 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex mt-6 pt-6 justify-end  px-32 ">
+      <div className="flex mt-6 pt-6 justify-end px-32 ">
         <div className="mt-4 rounded-lg h-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 w-1/3 relative">
           <img className="-mt-14" src={Image3} alt="Image 3" loading="lazy" />
-          <p className="bg-neutral-200 p-2  rounded-lg absolute top-16 -left-14">
+          <p className="bg-neutral-200 p-2 rounded-lg absolute top-16 -left-14">
             Danish FSA regulated
           </p>
         </div>
-        <div className=" w-1/3 mt-4 relative">
+        <div className="w-1/3 mt-4 relative">
           <img
             className="h-300 pt-10 px-10"
             src={Image4}
@@ -75,7 +74,7 @@ const Services = () => {
         <div className="flex flex-col p-20">
           <p className="mb-6 text-gray-200"> OUR SERVICE</p>
           <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Hand} alt="Back" loading="lazy" />
+            <img className="h-16 w-16" src={Hand} alt="Back" loading="lazy" />
             <h1 className="text-xl p-2">We are your trusted partner</h1>
             <p>
               We are a dedicated and diligent team of payments specialists
@@ -84,7 +83,7 @@ const Services = () => {
             </p>
           </div>
           <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Star} alt="Back" loading="lazy" />
+            <img className="h-16 w-16" src={Star} alt="Back" loading="lazy" />
             <h1 className="text-xl p-2">We provide the network you need</h1>
             <p>
               We open access to a resilient global network spanning 90+
@@ -93,7 +92,7 @@ const Services = () => {
             </p>
           </div>
           <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Key} alt="Back" loading="lazy" />
+            <img className="h-16 w-16" src={Key} alt="Back" loading="lazy" />
             <h1 className="text-xl p-2">
               We bring certainty through compliance
             </h1>
@@ -104,7 +103,7 @@ const Services = () => {
             </p>
           </div>
           <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Human} alt="Back" loading="lazy" />
+            <img className="h-16 w-16" src={Human} alt="Back" loading="lazy" />
             <h1 className="text-xl p-2">We execute with expertise</h1>
             <p>
               We complete an industry-leading 99% of payments for customers in
@@ -127,7 +126,7 @@ const Services = () => {
           <div className="flex mt-16 mb-10 mr-16">
             <div className="relative ">
               <img
-                className=" mt-0 rounded-md"
+                className="mt-0 rounded-md"
                 src={frameImage}
                 alt="Image 6"
                 loading="lazy"
@@ -138,7 +137,7 @@ const Services = () => {
             </div>
             <div className="relative">
               <img
-                className="mt-0  rounded-md"
+                className="mt-0 rounded-md"
                 src={frameImage1}
                 alt="Image 6"
                 loading="lazy"
@@ -170,25 +169,25 @@ const Services = () => {
               <span>Learn More</span>
             </p>
           </div>
-          <div className=" rounded-lg w-1/3 relative">
+          <div className="rounded-lg w-1/3 relative">
             <img className="m-2" src={Computer} alt="" loading="lazy" />
-            <p className="  text-sm absolute bg-neutral-300 -left-8 top-4 px-6 py-1 rounded-lg">
+            <p className="text-sm absolute bg-neutral-300 -left-8 top-4 px-6 py-1 rounded-lg">
               iGaming <br />
               <span>Learn More</span>
             </p>
           </div>
         </div>
-        <div className=" flex justify-between w-[100%]">
+        <div className="flex justify-between w-[100%]">
           <div className="mr-4 w-1/3 relative">
             <img className="m-2" src={Field} alt="" loading="lazy" />
-            <p className=" text-sm absolute bg-neutral-300 -right-10 top-6 px-4 py-1 rounded-lg">
+            <p className="text-sm absolute bg-neutral-300 -right-10 top-6 px-4 py-1 rounded-lg">
               NGOs <br />
               <span>Learn More</span>
             </p>
           </div>
-          <div className=" w-1/3 relative ">
+          <div className="w-1/3 relative ">
             <img className="m-2" src={Library} alt="" />
-            <p className=" text-sm absolute bg-neutral-300 -left-4 -bottom-2 px-4 py-1 rounded-lg">
+            <p className="text-sm absolute bg-neutral-300 -left-4 -bottom-2 px-4 py-1 rounded-lg">
               Corporates <br />
               <span>Learn More</span>
             </p>

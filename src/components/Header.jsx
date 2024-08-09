@@ -1,6 +1,7 @@
 import More from "../assets/DiscoverMore.svg";
 import Navbar from "./NavBar";
 import Heading from "./Heading";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -9,8 +10,9 @@ const Header = () => {
         <Navbar />
         <Heading />
         <div className="relative w-30 h-[300px] mt-[-50px] mb-[250px] ">
-          <p className=" w-1/5 absolute left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg text-white">
+          <p className="w-1/5 absolute left-60 -top-6 p-4 bg-gray-500 text-center rounded-lg text-white">
             Discover More
+            <IoIosArrowDroprightCircle className="text-2xl ml-60 bg-black rounded-2xl" />
           </p>
           <img
             className="Image1 z-0"
