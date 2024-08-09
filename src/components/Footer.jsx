@@ -49,7 +49,7 @@ const Footer = () => {
           <div>Contact us</div>
         </div>
       </div>
-      <hr className="my-2 border-gray-300 " />
+      <hr className="my-4  border-gray-300 w-11/12 mx-auto" />
       <div className="flex flex-col self-end mr-5">
         <div className="text-xl font-semibold mb-4">Social Media</div>
         <div className="flex space-x-4">

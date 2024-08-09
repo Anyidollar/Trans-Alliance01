@@ -17,7 +17,7 @@ const Payment = () => {
           </div>
         </div>
         <div className="flex-1">
-          <img src={Layer} alt="" />
+          <img src={Layer} alt="" loading="lazy" />
         </div>
       </div>
     </div>

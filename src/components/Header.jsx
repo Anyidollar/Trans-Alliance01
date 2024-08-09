@@ -12,7 +12,12 @@ const Header = () => {
           <p className=" w-1/5 absolute left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg text-white">
             Discover More
           </p>
-          <img className="Image1 z-0" src={More} alt="Discover More" />
+          <img
+            className="Image1 z-0"
+            src={More}
+            alt="Discover More"
+            loading="lazy"
+          />
         </div>
       </header>
     </>
