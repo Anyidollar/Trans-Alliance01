@@ -3,12 +3,9 @@ import Button from "./Button";
 
 const Sales = () => {
   return (
-    <div
-      id="contact"
-      className="flex flex-col bg-gray-50 md:flex-row py-10 px-4"
-    >
+    <div className="flex flex-col bg-gray-50 md:flex-row py-10 px-4">
       <div className="flex justify-center md:justify-start md:w-1/2">
-        <img src={Image} alt="" className="w-3/4"  loading="lazy"/>
+        <img src={Image} alt="" className="w-3/4" loading="lazy" />
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0">
         <section className="mx-1">

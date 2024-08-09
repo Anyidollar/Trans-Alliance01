@@ -10,10 +10,12 @@ const Header = () => {
         <Navbar />
         <Heading />
         <div className="relative w-30 h-[300px] mt-[-50px] mb-[250px] ">
-          <p className="w-1/5 absolute left-60 -top-6 p-4 bg-gray-500 text-center rounded-lg text-white">
-            Discover More
-            <IoIosArrowDroprightCircle className="text-2xl ml-60 bg-black rounded-2xl" />
-          </p>
+          <div className="w-1/5 absolute flex justify-between left-60 -top-6 px-6 py-4 bg-gray-800 text-center rounded-lg text-white">
+            <p>Discover More</p>
+            <a>
+              <IoIosArrowDroprightCircle className="text-2xl  bg-black rounded-2xl" />
+            </a>
+          </div>
           <img
             className="Image1 z-0"
             src={More}
@@ -25,5 +27,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;

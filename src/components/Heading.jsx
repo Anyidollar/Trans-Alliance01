@@ -8,7 +8,7 @@ const Heading = () => {
           Simplified cross-border payment
         </p>
         <p className="text-8xl text-white mt-1 mb-3">
-          We are the <br /> payments people
+          We are the payments people
         </p>
         <p className="text-white text-sm">
           Transalliance Group.’s cross-border payments solutions connect <br />
