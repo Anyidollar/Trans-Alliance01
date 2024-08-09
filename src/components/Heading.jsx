@@ -18,7 +18,12 @@ const Heading = () => {
       </div>
       <div className=" flex flex-col relative w-[40%] pt-[20px]">
         <div>
-          <img className="mt-[-135px] ml-10" src={Laptop} alt="Header" />
+          <img
+            className="mt-[-135px] ml-10"
+            src={Laptop}
+            alt="Header"
+            loading="lazy"
+          />
         </div>
         <div className="absolute bg-[#FFFFFFB2] top-10 p-2 rounded-lg left-0 h-[70px] mt-3">
           <p className="flex item-center justify-center pt-3.5">
