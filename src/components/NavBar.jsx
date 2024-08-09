@@ -8,7 +8,6 @@ const NavBar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <>
       <nav className="p-2">

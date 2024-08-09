@@ -12,19 +12,25 @@ import House from "../assets/House.svg";
 import Library from "../assets/Library.svg";
 import Computer from "../assets/Computer.svg";
 import Field from "../assets/Field.svg";
-import SendMoney from "./SendMoney";
 import About from "./About";
 import Button from "./Button";
 import Payment from "./Payment";
 import Transaction from "./Transaction";
 import Report from "./Report";
+import NavBar from "./NavBar";
+import Heading from "./Heading";
+import Header from "./Header";
 
 const Services = () => {
   return (
     <main>
-      <SendMoney />
+      <div className="bg-gradient-to-r from-indigo-800 from-10% via-sky-700 via-30% to-emerald-900 to-90%">
+        <NavBar />
+        <Heading />
+        <Header />
+      </div>
       <About />
-      <div  className="flex justify-between px-32 mt-14">
+      <div className="flex justify-between px-32 mt-14">
         <div className="image1 small-s relative w-1/3">
           <img className="" src={Image1} alt="Image 1" loading="lazy" />
           <div className="text-center left-10 absolute -bottom-4">
@@ -70,7 +76,7 @@ const Services = () => {
       <div className="flex">
         <Payment />
       </div>
-      <div id="ourService" className="flex mt-5">
+      <div className="flex mt-5">
         <div className="flex flex-col p-20">
           <p className="mb-6 text-gray-200"> OUR SERVICE</p>
           <div className="mt-2 p-2">
@@ -152,9 +158,9 @@ const Services = () => {
       <div className="relative mt-10 flex">
         <Transaction />
       </div>
-      <div id="sector" className="sector pt-8 px-32 mb-10">
+      <div className="sector pt-8 px-32 mb-10">
         <div className="w-[100%]">
-          <h1 className="text-4xl bold mb-6 ">Sectors we serve</h1>
+          <h1 className="text-4xl bold mb-6">Sectors we serve</h1>
           <p className="mx-10 mb-8">
             We simplify the complexities of cross-border payments in some of the
             world’s most <br /> demanding sectors. Learn more about who we serve
@@ -188,7 +194,7 @@ const Services = () => {
           <div className="w-1/3 relative ">
             <img className="m-2" src={Library} alt="" />
             <p className="text-sm absolute bg-neutral-300 -left-4 -bottom-2 px-4 py-1 rounded-lg">
-              Corporates <br />
+              Corporates
               <span>Learn More</span>
             </p>
           </div>
