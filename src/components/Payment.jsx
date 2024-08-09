@@ -1,4 +1,4 @@
-import Layer from "../assets/Layer 01.svg";
+import Layer from "../assets/Frame 524laptop.svg";
 import Button from "./Button";
 
 const Payment = () => {
