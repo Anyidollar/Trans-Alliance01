@@ -28,6 +28,7 @@ const Services = () => {
       <Heading />
       <Header />
       <About />
+
       <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
         <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
           <img
@@ -39,9 +40,9 @@ const Services = () => {
             SEPA Instant, SEPA & SWIFT
           </p>
         </div>
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-6 md:mb-0">
           <img
-            className="w-full h-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
             src={Image2}
             alt="Customer portal for live transaction monitoring"
           />
@@ -52,9 +53,9 @@ const Services = () => {
       </div>
 
       <div className="flex flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
           <img
-            className="w-full h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+            className="w-full rounded-lg bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
             src={Image3}
             alt="Danish FSA regulated"
           />

@@ -5,11 +5,11 @@ const About = () => {
     <div className="about mt-28 px-4 sm:px-8 md:px-28 flex flex-wrap justify-between">
       <div className="flex flex-col justify-between rounded-md w-full md:w-1/2 mb-8 md:mb-0">
         <p className="text-neutral-400 text-lg md:text-xl mb-4">ABOUT US</p>
-        <div className="flex flex-col relative justify-center mt-6 md:mt-0 rounded-lg">
-          <button className="text-white rounded-xl border-2 px-8 py-2 mb-4">
-            Money Out
+        <div className="flex flex-col relative justify-center md:mt-0 rounded-lg">
+          <button className="text-white rounded-xl border-2 max-sm:ml-4 max-sm:w-36 md:w-36 md:ml-4 py-2 max-sm:mb-3 md:mb-2">
+            Money Out 
           </button>
-          <button className="text-sm rounded-lg absolute -bottom-4 bg-green-400 px-3 py-2 flex items-center w-36">
+          <button className="text-sm rounded-lg absolute bottom-0 bg-green-400 px-3 py-2 flex items-center w-36">
             Money Out
             <IoIosArrowDroprightCircle className="text-2xl ml-2 bg-green-300 rounded-full" />
           </button>
