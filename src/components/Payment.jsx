@@ -7,12 +7,12 @@ const Payment = () => {
       <div className="w-full md:w-1/2 bg-green-500 p-6 md:p-10">
         <div className="max-w-lg mx-auto md:mx-0 md:pl-20">
           <h2 className="text-2xl md:text-3xl  mb-4">
-            The human-powered <br/> payments network
+            The human-powered <br /> payments network
           </h2>
           <p className=" mb-6">
-            Driven by a team of over 200 global payments experts with absolute
-            dedication to solving our customers’ most complex cross-border
-            payments challenges.
+            Driven by a team of over 200 global <br /> payments experts with
+            absolute dedication <br /> to solving our customers’ most complex{" "}
+            <br /> cross-border payments challenges.
           </p>
           <Button>Learn More</Button>
         </div>

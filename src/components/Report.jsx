@@ -6,9 +6,6 @@ const Report = () => {
         Click below to read more about Inpay’s impressive year-on-year growth
         and to download the full report.
       </p>
-      <button className="bg-white text-[#122038] px-6 py-3 rounded-md font-semibold mt-4 hover:bg-gray-200 transition-colors duration-300">
-        Download Report
-      </button>
     </div>
   );
 };

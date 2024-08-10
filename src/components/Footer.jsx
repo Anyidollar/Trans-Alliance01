@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={logo} alt="logo" className="w-12 h-12 mr-2" />
             <div className="text-xl font-semibold">Transalliance Group</div>
           </div>
-          <Button className="my-4 md:my-10">Contact Us</Button>
+          <Button className="my-4 md:my-10 md:w-40 max-sm:w-40">Contact Us</Button>
         </div>
         <div className="flex flex-col mb-8 md:mb-0">
           <div className="text-lg md:text-xl font-semibold mb-4">Offices</div>

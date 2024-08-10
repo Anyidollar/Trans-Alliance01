@@ -20,6 +20,7 @@ import Report from "../components/Report";
 import Heading from "./Heading";
 import Header from "./Header";
 import NavBar from "./NavBar";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Services = () => {
   return (
@@ -89,9 +90,10 @@ const Services = () => {
                 We are your trusted partner
               </h4>
               <p className="mt-4">
-                We are a dedicated and diligent team of payments specialists
-                that’s committed to helping you unlock opportunity, create value
-                and make payments happen, together.
+                We are a dedicated and diligent team of <br /> payments
+                specialists that’s committed to helping <br /> you unlock
+                opportunity, create value and make <br /> payments happen,
+                together.
               </p>
             </div>
           </div>
@@ -102,9 +104,9 @@ const Services = () => {
                 We provide the network you need
               </h4>
               <p className="mt-4">
-                We open access to a resilient global network spanning 90+
-                countries that’s built to simplify complex challenges and move
-                money at speed.
+                We open access to a resilient global network <br /> spanning 90+
+                countries that’s built to simplify <br /> complex challenges and
+                move money at speed.
               </p>
             </div>
           </div>
@@ -115,10 +117,10 @@ const Services = () => {
                 We bring certainty through compliance
               </h4>
               <p className="mt-4">
-                We were born with compliance at our heart. Licensed by the
-                globally trusted Danish FSA, when we move money you can be
-                confident that it gets to the right place with absolute
-                accuracy.
+                We were born with compliance at our heart.
+                <br /> Licensed by the globally trusted Danish FSA, <br /> when
+                we move money you can be confident that <br /> it gets to the
+                right place with absolute accuracy.
               </p>
             </div>
           </div>
@@ -129,9 +131,10 @@ const Services = () => {
                 We execute with expertise
               </h4>
               <p className="mt-4">
-                We complete an industry-leading 99% of payments for customers in
-                the fast-changing financial services, iGaming, corporate and NGO
-                sectors, drawing on 16 years of proven expertise.
+                We complete an industry-leading 99% of payments <br /> for
+                customers in the fast-changing financial <br /> services,
+                iGaming, corporate and NGO sectors, <br /> drawing on 16 years
+                of proven expertise.
               </p>
             </div>
           </div>
@@ -139,11 +142,13 @@ const Services = () => {
         <div className="md:w-full lg:w-1/2 flex flex-col md:ml-0 lg:ml-10 max-sm:items-center">
           <div className="mr-0 lg:mr-14">
             <h1 className="text-2xl font-semibold mb-4">
-              The Transalliance  Group.<br /> difference
+              The Transalliance Group.
+              <br /> difference
             </h1>
             <p className="mt-4">
-              Our global payments network is powered by passionate people,
-              transparent customer relationships, and leading-edge technology.
+              Our global payments network is powered by passionate <br />{" "}
+              people, transparent customer relationships, and leading- <br />
+              edge technology.
             </p>
           </div>
           <div className="flex flex-wrap justify-center lg:justify-start mt-16 mb-10 max-sm:mx-2">
@@ -167,13 +172,13 @@ const Services = () => {
         <Transaction />
       </div>
 
-      <div id="sector" className="pt-8 md:px-32 max-sm:px-5 mb-10">
+      <div id="sector" className="pt-8 md:px-32 max-sm:px-5">
         <div className="w-full mb-10">
-          <h1 className="text-4xl font-bold mb-6">Sectors we serve</h1>
-          <p className="mx-10">
+          <h1 className="text-4xl  mb-8">Sectors we serve</h1>
+          <p>
             We simplify the complexities of cross-border payments in some of the
-            world’s most demanding sectors. Learn more about who we serve and
-            how we add value below.
+            world’s most <br /> demanding sectors. Learn more about who we serve
+            and how we add value below.
           </p>
         </div>
         <div className="flex flex-wrap justify-between w-full">
@@ -181,14 +186,20 @@ const Services = () => {
             <img className="m-2" src={House} alt="Financial Services" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
               Financial Services <br />
-              <span>Learn More</span>
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+              </span>
             </p>
           </div>
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Computer} alt="iGaming" />
             <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
               iGaming <br />
-              <span>Learn More</span>
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
         </div>
@@ -198,14 +209,20 @@ const Services = () => {
             <img className="m-2" src={Library} alt="Corporate" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
               Corporate <br />
-              <span>Learn More</span>
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Field} alt="NGOs" />
             <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
               NGOs <br />
-              <span>Learn More</span>
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
         </div>
