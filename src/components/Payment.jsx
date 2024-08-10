@@ -19,7 +19,7 @@ const Payment = () => {
           </Button>
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+      <div className="w-full md:w-1/2 mb-8 flex justify-center md:justify-end mt-6 md:mt-0">
         <img className="w-full max-w-lg" src={Layer} alt="Layer illustration" />
       </div>
     </div>
