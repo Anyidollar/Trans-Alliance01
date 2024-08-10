@@ -142,16 +142,17 @@ const Services = () => {
               edge technology.
             </p>
           </div>
-          <div className="flex max-sm:flex-wrap justify-center  mt-16 mb-10 max-sm:mx-2">
-            <div className="relative mr-4">
+          <div className="flex max-sm:flex-wrap justify-center mt-16 mb-10 max-sm:mx-2">
+            <div className="relative">
               <img className="rounded-md" src={frameImage} alt="Team" />
-              <p className="absolute w-auto p-2 top-6 bg-white rounded-lg left-1/2 transform -translate-x-1/2 text-center">
-                <span>OUR TEAM</span> <br /> Meet our best financial experts
+              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg  transform -translate-x-1/2 text-center">
+                <span className="text-gray-400">OUR TEAM</span> <br /> Over 200
+                experts
               </p>
             </div>
             <div className="relative">
               <img className="rounded-md" src={frameImage1} alt="Experts" />
-              <p className="absolute bg-white w-full bottom-0 text-center py-4 rounded-lg">
+              <p className="absolute bg-white md:w-40 bottom-0 text-center py-4 rounded-lg">
                 Meet our best financial experts
               </p>
             </div>

@@ -21,7 +21,7 @@ const Heading = () => {
       <div className="flex justify-center md:flex-col relative md:w-2/5 mt-6 md:mt-0">
         <img className="max-sm:ml-5 ml-40 w-full" src={Laptop} alt="Header" />
         <div className="absolute bg-white/70 max-sm:top-44 max-sm: md:top-44 p-2 rounded-lg left-1/2 transform -translate-x-1/2 md:translate-x-0 max-sm:left-22 md:left-36 max-sm:left-36 mt-3">
-          <p className="flex items-center justify-center h-full">
+          <p className="flex items-center justify-center">
             24/7, 365 transaction tracking
           </p>
         </div>
