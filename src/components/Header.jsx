@@ -3,27 +3,25 @@ import Icon from "../assets/Icons.svg";
 
 const Header = () => {
   return (
-    <>
-      <header className="relative bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% mt-[0px] ">
-        <div className="">
-          <p className=" md:w-1/5  max-sm:ml-6 absolute md:left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg">
-            Discover More
-          </p>
-          <img className="" src={More} alt="Discover More" />
-        </div>
+    <header className="relative bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 mt-0">
+      <div className="relative flex justify-center md:justify-start">
+        <p className="absolute md:left-10 top-4 p-2 bg-gray-500 text-center text-sm sm:text-base md:text-lg rounded-lg w-max">
+          Discover More
+        </p>
+        <img className="w-full" src={More} alt="Discover More" />
+      </div>
 
-        <div className="h-auto absolute -bottom-20 bg-[#FFFFFF] md:shadow-lg md:w-[90%] md:ml-[5%] rounded-t-lg ">
-          <div className="rounded-t-lg py-4 px-2  ">
-            <p className="md:py-4 px-2">
-              Send and Receive Money from all over with ease.
-            </p>
-          </div>
-          <div className="md:px-32">
-            <img src={Icon} alt="Icon" />
-          </div>
+      <div className="h-auto absolute bottom-0 transform translate-y-1/2 w-full md:w-11/12 md:left-1/2 md:transform md:-translate-x-1/2 bg-white shadow-lg rounded-t-lg">
+        <div className="rounded-t-lg py-4 px-4 text-center">
+          <p className="text-sm sm:text-base md:text-lg">
+            Send and Receive Money from all over with ease.
+          </p>
         </div>
-      </header>
-    </>
+        <div className="px-4 md:px-32">
+          <img className="mx-auto" src={Icon} alt="Icon" />
+        </div>
+      </div>
+    </header>
   );
 };
 

@@ -2,28 +2,32 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="about mt-28 md:px-28 max-sm:px-2 flex flex-wrap justify-between ">
-      <div className=" flex flex-col justify-between rounded-md ">
-        <p className="text-neutral-400">ABOUT US</p>
-        <div className="flex flex-col relative justify-center max-sm:mt-6 rounded-lg ">
-          <button className="text-white rounded-xl border-2 px-8 py-2 ">
+    <div className="about mt-28 px-4 sm:px-8 md:px-28 flex flex-wrap justify-between">
+      <div className="flex flex-col justify-between rounded-md w-full md:w-1/2 mb-8 md:mb-0">
+        <p className="text-neutral-400 text-lg md:text-xl mb-4">ABOUT US</p>
+        <div className="flex flex-col relative justify-center mt-6 md:mt-0 rounded-lg">
+          <button className="text-white rounded-xl border-2 px-8 py-2 mb-4">
             Money Out
           </button>
-          <button className=" text-sm rounded-lg absolute -bottom-4 bg-green-400 px-3 py-2 flex w-36">
+          <button className="text-sm rounded-lg absolute -bottom-4 bg-green-400 px-3 py-2 flex items-center w-36">
             Money Out
-            <IoIosArrowDroprightCircle className="text-2xl ml-5 bg-green-300 rounded-2xl" />
+            <IoIosArrowDroprightCircle className="text-2xl ml-2 bg-green-300 rounded-full" />
           </button>
         </div>
       </div>
-      <div className="max-sm:mt-8 md:w-1/2">
-        <h1 className="text-4xl bold">
-          Payment pathways, built <br /> for you
+      <div className="w-full md:w-1/2">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+          Payment pathways, built <br className="hidden md:block" /> for you
         </h1>
-        <p className="p-2">
-          Transalliance Group. Money Out and Money In solutions give <br />
-          our customers the ability to complete cross-border, multi- <br />
-          currency transactions securely and at speed. And with a <br />
-          single provider for both payouts and pay-ins, say goodbye to <br />
+        <p className="text-sm sm:text-base md:text-lg p-2">
+          Transalliance Group. Money Out and Money In solutions give{" "}
+          <br className="hidden md:block" />
+          our customers the ability to complete cross-border, multi-{" "}
+          <br className="hidden md:block" />
+          currency transactions securely and at speed. And with a{" "}
+          <br className="hidden md:block" />
+          single provider for both payouts and pay-ins, say goodbye to{" "}
+          <br className="hidden md:block" />
           the operational headaches of multi-supplier management.
         </p>
       </div>
