@@ -9,7 +9,7 @@ const Button = ({ children, type = "button", className }) => {
     >
       <div className="flex">
         {children}
-        <IoIosArrowDroprightCircle className="text-2xl ml-5  rounded-2xl" />
+        <IoIosArrowDroprightCircle className="text-2xl ml-5 rounded-2xl" />
       </div>
     </button>
   );

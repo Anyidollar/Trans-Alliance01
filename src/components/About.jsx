@@ -7,7 +7,7 @@ const About = () => {
         <p className="text-neutral-400 text-lg md:text-xl mb-4">ABOUT US</p>
         <div className="flex flex-col relative justify-center md:mt-0 rounded-lg">
           <button className="text-white rounded-xl border-2 max-sm:ml-4 max-sm:w-36 md:w-36 md:ml-4 py-2 max-sm:mb-3 md:mb-2">
-            Money Out 
+            Money Out
           </button>
           <button className="text-sm rounded-lg absolute bottom-0 bg-green-400 px-3 py-2 flex items-center w-36">
             Money Out

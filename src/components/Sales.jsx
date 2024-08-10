@@ -16,7 +16,7 @@ const Sales = () => {
         <section className="mx-4 md:mx-8 lg:mx-12">
           <div className="bg-white p-6 md:p-8 lg:p-12 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-              Speak to sales
+              Speak to Sales
             </h2>
             <form>
               <div className="mb-6">
@@ -33,7 +33,7 @@ const Sales = () => {
               </div>
               <div className="mb-6">
                 <label className="block mb-2 font-medium" htmlFor="firstname">
-                  Firstname
+                  First Name
                 </label>
                 <input
                   className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -45,7 +45,7 @@ const Sales = () => {
               </div>
               <div className="mb-6">
                 <label className="block mb-2 font-medium" htmlFor="lastname">
-                  Lastname
+                  Last Name
                 </label>
                 <input
                   className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"

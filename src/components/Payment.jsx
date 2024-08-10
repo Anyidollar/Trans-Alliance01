@@ -9,7 +9,7 @@ const Payment = () => {
           <h2 className="text-2xl md:text-3xl  mb-4">
             The human-powered <br /> payments network
           </h2>
-          <p className=" mb-6">
+          <p className="mb-6">
             Driven by a team of over 200 global <br /> payments experts with
             absolute dedication <br /> to solving our customers’ most complex{" "}
             <br /> cross-border payments challenges.

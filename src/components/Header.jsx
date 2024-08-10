@@ -1,10 +1,14 @@
 import More from "../assets/DiscoverMore.svg";
 import Icon from "../assets/Icons.svg";
+import Heading from "../components/Heading";
+import NavBar from "../components/NavBar";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Header = () => {
   return (
-    <header className="relative bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 mt-0">
+    <header className="relative bg-gradient-to-r from-indigo-800 via-sky-900 to-emerald-700 mt-0">
+      <NavBar />
+      <Heading />
       <div className="relative flex justify-center md:justify-start">
         <p className="absolute md:left-60 -top-8 px-4 py-4 bg-gray-500 text-center text-sm sm:text-base md:text-lg rounded-lg md:w-1/4 flex items-center justify-around">
           <span className="text-white">Discover More</span>

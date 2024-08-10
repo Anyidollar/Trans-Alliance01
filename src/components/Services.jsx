@@ -17,16 +17,12 @@ import Button from "./Button";
 import Payment from "../components/Payment";
 import Transaction from "../components/Transaction";
 import Report from "../components/Report";
-import Heading from "./Heading";
 import Header from "./Header";
-import NavBar from "./NavBar";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Services = () => {
   return (
     <main className="">
-      <NavBar />
-      <Heading />
       <Header />
       <About />
       <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
