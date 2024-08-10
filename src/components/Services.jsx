@@ -23,12 +23,11 @@ import NavBar from "./NavBar";
 
 const Services = () => {
   return (
-    <main>
+    <main className="">
       <NavBar />
       <Heading />
       <Header />
       <About />
-
       <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
         <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
           <img
@@ -40,7 +39,7 @@ const Services = () => {
             SEPA Instant, SEPA & SWIFT
           </p>
         </div>
-        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-6 md:mb-0">
+        <div className="relative  md:w-1/2 lg:w-1/3 lg:h-auto mb-6 md:mb-0">
           <img
             className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
             src={Image2}
@@ -74,49 +73,48 @@ const Services = () => {
           </p>
         </div>
       </div>
-
-      <div className="flex justify-center mb-10">
-        <Button className="bg-green-400">Learn More</Button>
+      <div className="flex justify-end mr-40 mb-10">
+        <Button>Learn More</Button>
       </div>
-
-      <div className="flex flex-wrap max-sm:px-4 md:px-32 mb-10">
+      <Payment />
+      <div className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
           <h3 className="text-lg font-semibold text-gray-700 mb-6">
             OUR SERVICE
           </h3>
-          <div className="mt-2 p-2 flex items-start">
-            <img className="h-16 w-16 mr-4" src={Hand} alt="Trusted Partner" />
-            <div>
+          <div className="mt-4 p-2 items-start">
+            <img className="mr-4" src={Hand} alt="Trusted Partner" />
+            <div className="mt-2">
               <h4 className="text-xl font-semibold">
                 We are your trusted partner
               </h4>
-              <p>
+              <p className="mt-4">
                 We are a dedicated and diligent team of payments specialists
                 that’s committed to helping you unlock opportunity, create value
                 and make payments happen, together.
               </p>
             </div>
           </div>
-          <div className="mt-2 p-2 flex items-start">
+          <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Star} alt="Network" />
-            <div>
+            <div className="mt-2">
               <h4 className="text-xl font-semibold">
                 We provide the network you need
               </h4>
-              <p>
+              <p className="mt-4">
                 We open access to a resilient global network spanning 90+
                 countries that’s built to simplify complex challenges and move
                 money at speed.
               </p>
             </div>
           </div>
-          <div className="mt-2 p-2 flex items-start">
+          <div className="mt-4 p-2  items-start">
             <img className="h-16 w-16 mr-4" src={Key} alt="Compliance" />
-            <div>
+            <div className="mt-2">
               <h4 className="text-xl font-semibold">
                 We bring certainty through compliance
               </h4>
-              <p>
+              <p className="mt-4">
                 We were born with compliance at our heart. Licensed by the
                 globally trusted Danish FSA, when we move money you can be
                 confident that it gets to the right place with absolute
@@ -124,13 +122,13 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="mt-2 p-2 flex items-start">
+          <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Human} alt="Expertise" />
-            <div>
+            <div className="mt-2">
               <h4 className="text-xl font-semibold">
                 We execute with expertise
               </h4>
-              <p>
+              <p className="mt-4">
                 We complete an industry-leading 99% of payments for customers in
                 the fast-changing financial services, iGaming, corporate and NGO
                 sectors, drawing on 16 years of proven expertise.
@@ -138,13 +136,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-
         <div className="md:w-full lg:w-1/2 flex flex-col md:ml-0 lg:ml-10 max-sm:items-center">
           <div className="mr-0 lg:mr-14">
             <h1 className="text-2xl font-semibold mb-4">
-              The Transalliance Group Difference
+              The Transalliance  Group.<br /> difference
             </h1>
-            <p>
+            <p className="mt-4">
               Our global payments network is powered by passionate people,
               transparent customer relationships, and leading-edge technology.
             </p>
@@ -213,8 +210,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-      <Payment />
 
       <div className="mb-10">
         <Report />

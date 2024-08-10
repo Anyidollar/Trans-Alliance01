@@ -11,12 +11,12 @@ const About = () => {
           </button>
           <button className="text-sm rounded-lg absolute bottom-0 bg-green-400 px-3 py-2 flex items-center w-36">
             Money Out
-            <IoIosArrowDroprightCircle className="text-2xl ml-2 bg-green-300 rounded-full" />
+            <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full" />
           </button>
         </div>
       </div>
       <div className="w-full md:w-1/2">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl mb-4">
           Payment pathways, built <br className="hidden md:block" /> for you
         </h1>
         <p className="text-sm sm:text-base md:text-lg p-2">

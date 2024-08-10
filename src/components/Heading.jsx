@@ -24,7 +24,7 @@ const Heading = () => {
           src={Laptop}
           alt="Header"
         />
-        <div className="absolute bg-white/70 top-12 md:top-10 p-2 rounded-lg left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-0 h-12 md:h-16 mt-3">
+        <div className="absolute bg-white/70 max-sm:top-28 max-sm: md:top-28 p-2 rounded-lg left-1/2 transform -translate-x-1/2 md:translate-x-0 max-sm:left-22 md:-left-10 mt-3">
           <p className="flex items-center justify-center h-full">
             24/7, 365 transaction tracking
           </p>
