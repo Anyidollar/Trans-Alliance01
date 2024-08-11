@@ -7,7 +7,7 @@ const Sales = () => {
       <div className="flex justify-center md:justify-start md:w-1/2 mb-8 md:mb-0">
         <img
           src={Image}
-          alt="Sales Illustration"
+          alt="Illustration"
           className="w-full max-w-xl"
           loading="lazy"
         />

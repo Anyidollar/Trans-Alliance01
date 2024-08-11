@@ -218,7 +218,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-
       <div className="mb-10">
         <Report />
       </div>
