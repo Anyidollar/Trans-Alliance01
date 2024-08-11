@@ -1,23 +1,35 @@
 import More from "../assets/DiscoverMore.svg";
-import Navbar from "./NavBar";
-import Heading from "./Heading";
+import Icon from "../assets/Icons.svg";
+import Heading from "../components/Heading";
+import NavBar from "../components/NavBar";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Header = () => {
   return (
     <>
-      <header className="bg-gradient-to-r from-indigo-800 from-10% via-sky-700 via-30% to-emerald-900 to-90% mt-[0px] py-[20px] h-[920px]">
-        <Navbar />
+      <header className="relative bg-gradient-to-r from-blue-900 via-sky-900 to-emerald-700 mt-0">
+        <NavBar />
         <Heading />
-        <div className="relative w-30 h-[300px] mt-[-50px] mb-[250px] ">
-          <p className=" w-1/5 absolute left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg text-white">
-            Discover More
+        <div className="relative flex justify-center md:justify-start">
+          <p className="absolute md:left-60 -top-8 px-4 py-4 bg-gray-500 text-center text-sm sm:text-base md:text-lg rounded-lg md:w-1/4 flex items-center justify-around">
+            <span className="text-white">Discover More</span>
+            <IoIosArrowDroprightCircle className="text-2xl rounded-full" />
           </p>
           <img
-            className="Image1 z-0"
+            className="md:w-2/3 max-sm:w-2/3"
             src={More}
             alt="Discover More"
-            loading="lazy"
           />
+        </div>
+        <div className="h-auto absolute bottom-0 transform translate-y-1/2 w-full md:w-11/12 md:left-1/2 md:transform md:-translate-x-1/2 bg-white shadow-lg rounded-t-lg">
+          <div className="rounded-t-lg md:ml-44 py-4 px-4">
+            <p className="text-sm  md:text-lg">
+              Send and Receive Money from all <br /> over with ease.
+            </p>
+          </div>
+          <div className="px-4 md:px-32 ">
+            <img className="h-auto w-auto" src={Icon} alt="Icon" />
+          </div>
         </div>
       </header>
     </>

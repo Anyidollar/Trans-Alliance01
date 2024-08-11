@@ -12,191 +12,219 @@ import House from "../assets/House.svg";
 import Library from "../assets/Library.svg";
 import Computer from "../assets/Computer.svg";
 import Field from "../assets/Field.svg";
-import SendMoney from "./SendMoney";
 import About from "./About";
 import Button from "./Button";
-import Payment from "./Payment";
-import Transaction from "./Transaction";
-import Report from "./Report";
-// import Break2 from "../Break2";
+import Payment from "../components/Payment";
+import Transaction from "../components/Transaction";
+import Report from "../components/Report";
+import Header from "./Header";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Services = () => {
   return (
-    <main>
-      <SendMoney />
+    <>
+      <Header />
       <About />
-      <div className=" flex justify-between  px-32 mt-14">
-        <div className="image1 small-s  relative w-1/3">
-          <img className="" src={Image1} alt="Image 1" loading="lazy" />
-          <div className=" text-center left-10 absolute -bottom-4">
-            <p className="bg-neutral-300 p-2  rounded-lg">
-              SEPA Instant, SEPA & SWIFT
-            </p>
-          </div>
+      <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
+        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0">
+          <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
+          <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
+            SEPA Instant, SEPA & SWIFT
+          </p>
         </div>
-        <div className="image2  small-s rounded-lg relative w-1/3">
+        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
           <img
-            className="h-300 rounded-lg  border-2 p-10 border-blue-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
+            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-green-300 via-green-400 to-yellow-500"
             src={Image2}
-            alt="Image 2"
-            loading="lazy"
+            alt="monitoring"
           />
-          <p className="bg-neutral-200 absolute bottom-14 -left-6 px-6 py-1 mr-1 rounded-lg text-center ">
-            Customer portal for live transaction <br /> monitoring
+          <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
+            Customer portal for live transaction monitoring
           </p>
         </div>
       </div>
-      <div className="flex mt-6 pt-6 justify-end  px-32 ">
-        <div className="mt-4 rounded-lg h-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 w-1/3 relative">
-          <img className="-mt-14" src={Image3} alt="Image 3" loading="lazy" />
-          <p className="bg-neutral-200 p-2  rounded-lg absolute top-16 -left-14">
+      <div className="flex md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
+        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
+          <GoArrowUpRight />
+          <img
+            className="w-full rounded-lg bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-800"
+            src={Image3}
+            alt="Danish"
+          />
+          <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
             Danish FSA regulated
           </p>
         </div>
-        <div className=" w-1/3 mt-4 relative">
+        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
           <img
-            className="h-300 pt-10 px-10"
+            className="w-full h-full px-10"
             src={Image4}
-            alt="Image 4"
-            loading="lazy"
+            alt="90+ currencies served"
           />
-          <p className="bg-neutral-200 py-2 px-2 ml-4 text-center absolute rounded-lg left-16">
+          <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
             90+ currencies served
           </p>
         </div>
       </div>
-      <div className="flex justify-end m-6">
-        <Button className="bg-green-400 my-10">Learn More</Button>
+      <div className="flex justify-end mr-20 mb-20">
+        <Button>Learn More</Button>
       </div>
-      <div className="flex">
-        <Payment />
-      </div>
-      <div id="ourService" className="flex mt-5">
-        <div className="flex flex-col p-20">
-          <p className="mb-6 text-gray-200"> OUR SERVICE</p>
-          <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Hand} alt="Back" loading="lazy" />
-            <h1 className="text-xl p-2">We are your trusted partner</h1>
-            <p>
-              We are a dedicated and diligent team of payments specialists
-              that’s committed to helping you unlock opportunity, create value
-              and make payments happen, together.
-            </p>
+      <Payment />
+      <div className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
+        <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
+          <h3 className="text-lg font-semibold text-gray-700 mb-6">
+            OUR SERVICE
+          </h3>
+          <div className="mt-4 p-2 items-start">
+            <img className="mr-4" src={Hand} alt="Trusted Partner" />
+            <div className="mt-2">
+              <h4 className="text-xl font-semibold">
+                We are your trusted partner
+              </h4>
+              <p className="mt-4">
+                We are a dedicated and diligent team of <br /> payments
+                specialists that’s committed to helping <br /> you unlock
+                opportunity, create value and make <br /> payments happen,
+                together.
+              </p>
+            </div>
           </div>
-          <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Star} alt="Back" loading="lazy" />
-            <h1 className="text-xl p-2">We provide the network you need</h1>
-            <p>
-              We open access to a resilient global network spanning 90+
-              countries that’s built to simplify complex challenges and move
-              money at speed.
-            </p>
+          <div className="mt-4 p-2 items-start">
+            <img className="h-16 w-16 mr-4" src={Star} alt="Network" />
+            <div className="mt-2">
+              <h4 className="text-xl font-semibold">
+                We provide the network you need
+              </h4>
+              <p className="mt-4">
+                We open access to a resilient global network <br /> spanning 90+
+                countries that’s built to simplify <br /> complex challenges and
+                move money at speed.
+              </p>
+            </div>
           </div>
-          <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Key} alt="Back" loading="lazy" />
-            <h1 className="text-xl p-2">
-              We bring certainty through compliance
-            </h1>
-            <p>
-              We were born with compliance at our heart. Licensed by the
-              globally trusted Danish FSA, when we move money you can be
-              confident that it gets to the right place with absolute accuracy.
-            </p>
+          <div className="mt-4 p-2  items-start">
+            <img className="h-16 w-16 mr-4" src={Key} alt="Compliance" />
+            <div className="mt-2">
+              <h4 className="text-xl font-semibold">
+                We bring certainty through compliance
+              </h4>
+              <p className="mt-4">
+                We were born with compliance at our heart.
+                <br /> Licensed by the globally trusted Danish FSA, <br /> when
+                we move money you can be confident that <br /> it gets to the
+                right place with absolute accuracy.
+              </p>
+            </div>
           </div>
-          <div className="mt-2 p-2">
-            <img className=" h-16 w-16" src={Human} alt="Back" loading="lazy" />
-            <h1 className="text-xl p-2">We execute with expertise</h1>
-            <p>
-              We complete an industry-leading 99% of payments for customers in
-              the fast-changing financial services, iGaming, corporate and NGO
-              sectors, drawing on 16 years of proven expertise.
-            </p>
+          <div className="mt-4 p-2 items-start">
+            <img className="h-16 w-16 mr-4" src={Human} alt="Expertise" />
+            <div className="mt-2">
+              <h4 className="text-xl font-semibold">
+                We execute with expertise
+              </h4>
+              <p className="mt-4">
+                We complete an industry-leading 99% of payments <br /> for
+                customers in the fast-changing financial <br /> services,
+                iGaming, corporate and NGO sectors, <br /> drawing on 16 years
+                of proven expertise.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="ml-10">
-          <div className="mr-14">
-            <h1 className="text-2xl mt-14">
+        <div className="md:w-full lg:w-1/2 flex flex-col md:ml-0 lg:ml-10 max-sm:items-center">
+          <div className="mr-0 lg:mr-14">
+            <h1 className="text-2xl font-semibold mb-4">
               The Transalliance Group.
               <br /> difference
             </h1>
-            <p className="">
-              Our global payments network is powered by passionate people,
-              transparent customer relationships, and leading-edge technology.
+            <p className="mt-4">
+              Our global payments network is powered by passionate <br />{" "}
+              people, transparent customer relationships, and leading- <br />
+              edge technology.
             </p>
           </div>
-          <div className="flex mt-16 mb-10 mr-16">
-            <div className="relative ">
-              <img
-                className=" mt-0 rounded-md"
-                src={frameImage}
-                alt="Image 6"
-                loading="lazy"
-              />
-              <p className="absolute top-6 bg-white rounded-lg -left-14">
-                <span>OUR TEAM</span> <br /> Meet our best financial experts
+          <div className="flex max-sm:flex-wrap justify-center mt-16 mb-10 max-sm:mx-2">
+            <div className="relative">
+              <img className="rounded-md" src={frameImage} alt="Team" />
+              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg  transform -translate-x-1/2 text-center">
+                <span className="text-gray-400">OUR TEAM</span> <br /> Over 200
+                experts
               </p>
             </div>
-            <div className="relative">
-              <img
-                className="mt-0  rounded-md"
-                src={frameImage1}
-                alt="Image 6"
-                loading="lazy"
-              />
-              <p className="py-10 px-2 text-center absolute bottom-0 right-0 bg-white w-full">
+            <div className="relative ">
+              <img className="rounded-md" src={frameImage1} alt="Experts" />
+
+              <p className="absolute bg-white md:w-40 bottom-0 text-center py-4 rounded-lg">
                 Meet our best financial experts
+                <GoArrowUpRight />
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative mt-10 flex">
+      <div className="relative mt-10">
         <Transaction />
       </div>
-      <div id="sector" className="sector pt-8 px-32 mb-10">
-        <div className="w-[100%]">
-          <h1 className="text-4xl bold mb-6 ">Sectors we serve</h1>
-          <p className="mx-10 mb-8">
+
+      <div className=" mt-10 pt-8 md:px-32 max-sm:px-5">
+        <div className="w-full mb-10">
+          <h1 className="text-4xl  mb-8">Sectors we serve</h1>
+          <p>
             We simplify the complexities of cross-border payments in some of the
             world’s most <br /> demanding sectors. Learn more about who we serve
             and how we add value below.
           </p>
         </div>
-        <div className="flex justify-between w-[100%]">
-          <div className="mr-4 w-1/3 relative ">
-            <img className="m-2" src={House} alt="" loading="lazy" />
-            <p className="absolute text-sm bg-neutral-300 -right-12 bottom-8 px-6 py-1 rounded-lg">
-              Finacial Services <br />
-              <span>Learn More</span>
+        <div className="flex flex-wrap justify-between w-full">
+          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img className="m-2" src={House} alt="Financial Services" />
+            <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
+              Financial Services
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+              </span>
             </p>
           </div>
-          <div className=" rounded-lg w-1/3 relative">
-            <img className="m-2" src={Computer} alt="" loading="lazy" />
-            <p className="  text-sm absolute bg-neutral-300 -left-8 top-4 px-6 py-1 rounded-lg">
+          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img className="m-2" src={Computer} alt="iGaming" />
+            <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
               iGaming <br />
-              <span>Learn More</span>
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
         </div>
-        <div className=" flex justify-between w-[100%]">
-          <div className="mr-4 w-1/3 relative">
-            <img className="m-2" src={Field} alt="" loading="lazy" />
-            <p className=" text-sm absolute bg-neutral-300 -right-10 top-6 px-4 py-1 rounded-lg">
-              NGOs <br />
-              <span>Learn More</span>
+        <div className="flex flex-wrap justify-between w-full md:mt-10">
+          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img className="m-2" src={Field} alt="NGOs" />
+            <p className="absolute text-sm bg-neutral-300 md:left-60 top-4 px-6 py-1 rounded-lg">
+              NGOs
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
-          <div className=" w-1/3 relative ">
-            <img className="m-2" src={Library} alt="" />
-            <p className=" text-sm absolute bg-neutral-300 -left-4 -bottom-2 px-4 py-1 rounded-lg">
-              Corporates <br />
-              <span>Learn More</span>
+          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img className="m-2" src={Library} alt="Corporate" />
+            <p className="absolute text-sm bg-neutral-300 md:right-60 -bottom-4 px-6 py-1 rounded-lg">
+              Corporates
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
+              </span>
             </p>
           </div>
         </div>
       </div>
-      <Report />
-    </main>
+      <div className="mb-10">
+        <Report />
+      </div>
+    </>
   );
 };
 

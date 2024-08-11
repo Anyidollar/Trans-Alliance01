@@ -3,79 +3,85 @@ import Button from "./Button";
 
 const Sales = () => {
   return (
-    <div
-      id="contact"
-      className="flex flex-col bg-gray-50 md:flex-row py-10 px-4"
-    >
-      <div className="flex justify-center md:justify-start md:w-1/2">
-        <img src={Image} alt="" className="w-3/4"  loading="lazy"/>
+    <div className="flex flex-col md:flex-row bg-gray-50 py-10 px-4">
+      <div className="flex justify-center md:justify-start md:w-1/2 mb-8 md:mb-0">
+        <img
+          src={Image}
+          alt="Illustration"
+          className="w-full max-w-xl"
+          loading="lazy"
+        />
       </div>
-      <div className="md:w-1/2 mt-8 md:mt-0">
-        <section className="mx-1">
-          <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-            <div className="mb-12">
-              <h2 className="text-2xl">Speak to sales</h2>
-            </div>
-            <form className="mx-20">
-              <div className="mb-4">
-                <label className="block mb-2" htmlFor="email">
+      <div className="md:w-1/2">
+        <section className="mx-4 md:mx-8 lg:mx-12">
+          <div className="bg-white p-6 md:p-8 lg:p-12 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
+              Speak to Sales
+            </h2>
+            <form>
+              <div className="mb-6">
+                <label className="block mb-2 font-medium" htmlFor="email">
                   Email
                 </label>
                 <input
-                  className="w-full px-3 py-2 border rounded-lg"
+                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                   type="email"
                   id="email"
                   name="email"
                   required
                 />
               </div>
-              <div className="mb-4">
-                <label className="block mb-2" htmlFor="firstname">
-                  Firstname
+              <div className="mb-6">
+                <label className="block mb-2 font-medium" htmlFor="firstname">
+                  First Name
                 </label>
                 <input
-                  className="w-full px-3 py-2 border rounded-lg"
+                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                   type="text"
                   id="firstname"
                   name="firstname"
                   required
                 />
               </div>
-              <div className="mb-4">
-                <label className="block mb-2" htmlFor="lastname">
-                  Lastname
+              <div className="mb-6">
+                <label className="block mb-2 font-medium" htmlFor="lastname">
+                  Last Name
                 </label>
                 <input
-                  className="w-full px-3 py-2 border rounded-lg"
+                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                   type="text"
                   id="lastname"
                   name="lastname"
                   required
                 />
               </div>
-              <div className="mb-4">
-                <label className="block mb-2" htmlFor="message">
+              <div className="mb-6">
+                <label className="block mb-2 font-medium" htmlFor="message">
                   Message
                 </label>
                 <textarea
-                  className="w-full px-3 py-2 border rounded-lg"
+                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                   id="message"
                   name="message"
                   rows="5"
                   required
                 ></textarea>
               </div>
-              <div className="flex items-start mb-4">
-                <input type="checkbox" className="mr-2 mt-1" />
+              <div className="flex items-start mb-6">
+                <input
+                  type="checkbox"
+                  className="mr-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                />
                 <p className="text-sm text-gray-700">
-                  I agree to receiving payment news and trends from Inpay,
+                  I agree to receive payment news and trends from Inpay,
                   including updates to our products and services. I am aware
                   that I can withdraw this consent at any time by contacting
                   Inpay or unsubscribing via email. I agree to Inpay processing
                   my personal data in accordance with its{" "}
-                  <a href="#">
-                    <u>Privacy Policy</u>
+                  <a href="#" className="text-blue-600 underline">
+                    Privacy Policy
                   </a>
+                  .
                 </p>
               </div>
               <Button>Submit</Button>
