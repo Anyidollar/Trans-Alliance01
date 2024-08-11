@@ -18,13 +18,13 @@ const Header = () => {
       </div>
 
       <div className="h-auto absolute bottom-0 transform translate-y-1/2 w-full md:w-11/12 md:left-1/2 md:transform md:-translate-x-1/2 bg-white shadow-lg rounded-t-lg">
-        <div className="rounded-t-lg py-4 px-4 text-center">
-          <p className="text-sm sm:text-base md:text-lg">
-            Send and Receive Money from all over with ease.
+        <div className="rounded-t-lg md:ml-44 py-4 px-4">
+          <p className="text-sm  md:text-lg">
+            Send and Receive Money from all <br /> over with ease.
           </p>
         </div>
-        <div className="px-4 md:px-32">
-          <img className="mx-auto" src={Icon} alt="Icon" />
+        <div className="px-4 md:px-32 ">
+          <img className="h-auto w-auto" src={Icon} alt="Icon" />
         </div>
       </div>
     </header>

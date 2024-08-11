@@ -63,7 +63,7 @@ const NavBar = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
+          <div className="md:hidden  bg-white border-t border-gray-200">
             <div className="container mx-auto px-4 py-2 space-y-2">
               <a
                 href="/home"
@@ -98,7 +98,7 @@ const NavBar = () => {
               </a>
               <a
                 href="/get started"
-                className="block bg-green-600 font-[500] text-white px-4 py-2 rounded hover:bg-indigo-600"
+                className="block bg-green-600 font-[500] w-36  text-white px-4 py-2 rounded hover:bg-indigo-600"
               >
                 Get Started
               </a>

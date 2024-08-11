@@ -2,7 +2,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="about mt-28 px-4 sm:px-8 md:px-28 flex flex-wrap justify-between">
+    <div className="mt-40 max-sm:mt-28 px-4 sm:px-8 md:px-28 flex flex-wrap justify-between">
       <div className="flex flex-col justify-between rounded-md w-full md:w-1/2 mb-8 md:mb-0">
         <p className="text-neutral-400 text-lg md:text-xl mb-4">ABOUT US</p>
         <div className="flex flex-col relative justify-center md:mt-0 rounded-lg">

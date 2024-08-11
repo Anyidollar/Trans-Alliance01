@@ -32,13 +32,13 @@ const Services = () => {
             SEPA Instant, SEPA & SWIFT
           </p>
         </div>
-        <div className="relative  md:w-1/2 lg:w-1/3 lg:h-auto mb-6 md:mb-0">
+        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-20">
           <img
             className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-green-300 via-green-400 to-yellow-500"
             src={Image2}
             alt="monitoring"
           />
-          <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 p-2 rounded-lg w-80">
+          <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
             Customer portal for live transaction monitoring
           </p>
         </div>
@@ -50,7 +50,7 @@ const Services = () => {
             src={Image3}
             alt="Danish"
           />
-          <p className="absolute text-center transform -translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg w-34 ">
+          <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
             Danish FSA regulated
           </p>
         </div>
@@ -60,7 +60,7 @@ const Services = () => {
             src={Image4}
             alt="90+ currencies served"
           />
-          <p className="absolute text-center ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
+          <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
             90+ currencies served
           </p>
         </div>
@@ -195,7 +195,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between w-full mt-10">
+        <div className="flex flex-wrap justify-between w-full md:mt-10">
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Library} alt="Corporate" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
