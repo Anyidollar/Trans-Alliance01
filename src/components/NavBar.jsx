@@ -49,7 +49,7 @@ const NavBar = () => {
             </a>
             <a
               href="/get started"
-              className="bg-green-600 flex marker: text-black font-[500] hover:bg-indigo-600 px-4 py-2 rounded-lg"
+              className="bg-green-400 flex marker: text-black font-[500] hover:bg-indigo-600 px-4 py-2 rounded-lg"
             >
               Get Started
               <GoArrowUpRight />

@@ -9,7 +9,7 @@ const About = () => {
           <button className="text-white rounded-xl border-2 max-sm:ml-4 max-sm:w-36 md:w-36 md:ml-4 py-2 max-sm:mb-3 md:mb-2">
             Money Out
           </button>
-          <button className="text-sm rounded-lg absolute bottom-0 bg-green-400 px-3 py-2 flex items-center w-36">
+          <button className="text-sm rounded-lg absolute bottom-0 bg-gradient-to-r from-yellow-300 via-green-500 to-green-400 px-3 py-2 flex items-center w-36">
             Money Out
             <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full" />
           </button>

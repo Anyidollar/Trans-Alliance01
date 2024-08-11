@@ -22,7 +22,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Services = () => {
   return (
-    <main className="">
+    <>
       <Header />
       <About />
       <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
@@ -65,7 +65,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-end mr-40 mb-10">
+      <div className="flex justify-end mr-20 mb-10">
         <Button>Learn More</Button>
       </div>
       <Payment />
@@ -159,12 +159,11 @@ const Services = () => {
           </div>
         </div>
       </div>
-
       <div className="relative mt-10">
         <Transaction />
       </div>
 
-      <div id="sector" className="pt-8 md:px-32 max-sm:px-5">
+      <div className="pt-8 md:px-32 max-sm:px-5">
         <div className="w-full mb-10">
           <h1 className="text-4xl  mb-8">Sectors we serve</h1>
           <p>
@@ -177,7 +176,7 @@ const Services = () => {
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={House} alt="Financial Services" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
-              Financial Services <br />
+              Financial Services
               <span className="flex">
                 Learn More{" "}
                 <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
@@ -197,22 +196,22 @@ const Services = () => {
         </div>
         <div className="flex flex-wrap justify-between w-full md:mt-10">
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
-            <img className="m-2" src={Library} alt="Corporate" />
-            <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
-              Corporate <br />
+            <img className="m-2" src={Field} alt="NGOs" />
+            <p className="absolute text-sm bg-neutral-300 md:left-60 top-4 px-6 py-1 rounded-lg">
+              NGOs
               <span className="flex">
                 Learn More{" "}
-                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
+                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
               </span>
             </p>
           </div>
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
-            <img className="m-2" src={Field} alt="NGOs" />
-            <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
-              NGOs <br />
+            <img className="m-2" src={Library} alt="Corporate" />
+            <p className="absolute text-sm bg-neutral-300 md:right-60 -bottom-4 px-6 py-1 rounded-lg">
+              Corporates
               <span className="flex">
                 Learn More{" "}
-                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
+                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
               </span>
             </p>
           </div>
@@ -221,7 +220,7 @@ const Services = () => {
       <div className="mb-10">
         <Report />
       </div>
-    </main>
+    </>
   );
 };
 

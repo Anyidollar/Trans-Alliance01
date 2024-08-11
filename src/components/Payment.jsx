@@ -14,7 +14,9 @@ const Payment = () => {
             absolute dedication <br /> to solving our customers’ most complex{" "}
             <br /> cross-border payments challenges.
           </p>
-          <Button>Learn More</Button>
+          <Button className="bg-gradient-to-r from-yellow-300 via-green-500 to-green-400">
+            Learn More
+          </Button>
         </div>
       </div>
       <div className="w-full md:w-1/2  flex justify-center md:justify-end mt-6 md:mt-0">
