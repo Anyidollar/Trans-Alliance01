@@ -8,10 +8,10 @@ const Transaction = () => {
       </div>
       <div className="md:flex-1 max-sm:py-5 max-sm:px-2 md:mt-[5.5rem] bg-green-500">
         <div className="md:py-10 md:px-20">
-          <h2 className="text-3xl">
+          <h2 className="text-3xl font-Gayathri">
             One portal, <br /> every transaction
           </h2>
-          <p>
+          <p className="font-DMSans">
             Our customer portal provides an intuitive <br />
             interface to access all of our services via a <br /> simple, single
             login.

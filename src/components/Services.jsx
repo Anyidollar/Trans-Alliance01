@@ -35,7 +35,7 @@ const Services = () => {
         </div>
         <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
           <img
-            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-green-300 via-green-400 to-yellow-500"
+            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
             src={Image2}
             alt="monitoring"
           />
@@ -48,7 +48,7 @@ const Services = () => {
         <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
           <GoArrowUpRight />
           <img
-            className="w-full rounded-lg bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-800"
+            className="w-full rounded-lg bg-gradient-to-r from-[#F27405] to-[#D3BD00]"
             src={Image3}
             alt="Danish"
           />
@@ -73,16 +73,16 @@ const Services = () => {
       <Payment />
       <div className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
-          <h3 className="text-lg font-semibold text-gray-700 mb-6">
+          <h3 className="text-lg font-DMSans font-semibold text-gray-700 mb-6">
             OUR SERVICE
           </h3>
           <div className="mt-4 p-2 items-start">
             <img className="mr-4" src={Hand} alt="Trusted Partner" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We are your trusted partner
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We are a dedicated and diligent team of <br /> payments
                 specialists that’s committed to helping <br /> you unlock
                 opportunity, create value and make <br /> payments happen,
@@ -93,10 +93,10 @@ const Services = () => {
           <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Star} alt="Network" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We provide the network you need
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We open access to a resilient global network <br /> spanning 90+
                 countries that’s built to simplify <br /> complex challenges and
                 move money at speed.
@@ -106,10 +106,10 @@ const Services = () => {
           <div className="mt-4 p-2  items-start">
             <img className="h-16 w-16 mr-4" src={Key} alt="Compliance" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-semibold font-DMSans">
                 We bring certainty through compliance
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We were born with compliance at our heart.
                 <br /> Licensed by the globally trusted Danish FSA, <br /> when
                 we move money you can be confident that <br /> it gets to the
@@ -120,10 +120,10 @@ const Services = () => {
           <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Human} alt="Expertise" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We execute with expertise
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We complete an industry-leading 99% of payments <br /> for
                 customers in the fast-changing financial <br /> services,
                 iGaming, corporate and NGO sectors, <br /> drawing on 16 years
@@ -134,11 +134,11 @@ const Services = () => {
         </div>
         <div className="md:w-full lg:w-1/2 flex flex-col md:ml-0 lg:ml-10 max-sm:items-center">
           <div className="mr-0 lg:mr-14">
-            <h1 className="text-2xl font-semibold mb-4">
+            <h1 className="text-2xl font-semibold font-Gayathri mb-4">
               The Transalliance Group.
               <br /> difference
             </h1>
-            <p className="mt-4">
+            <p className="mt-4 font-DMSans">
               Our global payments network is powered by passionate <br />{" "}
               people, transparent customer relationships, and leading- <br />
               edge technology.
@@ -169,8 +169,8 @@ const Services = () => {
 
       <div className=" mt-10 pt-8 md:px-32 max-sm:px-5">
         <div className="w-full mb-10">
-          <h1 className="text-4xl  mb-8">Sectors we serve</h1>
-          <p>
+          <h1 className="text-4xl font-Gayathri mb-8">Sectors we serve</h1>
+          <p className="font-DMSans text-gray-600">
             We simplify the complexities of cross-border payments in some of the
             world’s most <br /> demanding sectors. Learn more about who we serve
             and how we add value below.

@@ -12,11 +12,11 @@ const NavBar = () => {
   return (
     <>
       <nav className="p-2">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+        <div className="container font-DMSans mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="h-10 ml-12 cursor-pointer" />
           </div>
-          <div className="hidden md:flex space-x-4 items-center">
+          <div className="hidden  md:flex space-x-4 items-center">
             <a
               href="/home"
               className="text-white font-[700] hover:text-blue-500"

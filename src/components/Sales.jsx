@@ -15,7 +15,7 @@ const Sales = () => {
       <div className="md:w-1/2">
         <section className="mx-4 md:mx-8 lg:mx-12">
           <div className="bg-white p-6 md:p-8 lg:p-12 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
+            <h2 className="text-2xl font-DMSans font-bold mb-8 text-center md:text-left">
               Speak to Sales
             </h2>
             <form>
@@ -72,7 +72,7 @@ const Sales = () => {
                   type="checkbox"
                   className="mr-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
-                <p className="text-sm text-gray-700">
+                <p className="text-sm font-DMSans text-gray-700">
                   I agree to receive payment news and trends from Inpay,
                   including updates to our products and services. I am aware
                   that I can withdraw this consent at any time by contacting
@@ -84,7 +84,7 @@ const Sales = () => {
                   .
                 </p>
               </div>
-              <Button>Submit</Button>
+              <Button className="font-DMSans">Submit</Button>
             </form>
           </div>
         </section>

@@ -4,13 +4,13 @@ const Heading = () => {
   return (
     <div className="flex flex-wrap items-center ml-10 mb-10">
       <div className="flex flex-col  max-sm:p-10 md:p-10">
-        <p className="text-sm text-yellow-600 md:mr-auto md:-mb-4">
+        <p className="text-sm font-DMSans text-yellow-600 max-sm:mb-4 md:mr-auto md:mb-4">
           Simplified cross-border payment
         </p>
-        <p className="text-4xl md:text-6xl lg:text-8xl text-white">
+        <p className="text-4xl font-Gayathri md:text-6xl lg:text-8xl text-white">
           We are the <br className="hidden md:block" /> payments people
         </p>
-        <p className="text-white text-sm md:text-left">
+        <p className="text-white font-DMSans text-sm md:text-left">
           Transalliance Group’s cross-border payments solutions connect{" "}
           <br className="hidden md:block" />
           organizations and communities globally to the network they need{" "}
