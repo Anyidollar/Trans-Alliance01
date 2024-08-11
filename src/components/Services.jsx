@@ -19,6 +19,7 @@ import Transaction from "../components/Transaction";
 import Report from "../components/Report";
 import Header from "./Header";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Services = () => {
   return (
@@ -32,7 +33,7 @@ const Services = () => {
             SEPA Instant, SEPA & SWIFT
           </p>
         </div>
-        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-20">
+        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
           <img
             className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-green-300 via-green-400 to-yellow-500"
             src={Image2}
@@ -43,8 +44,9 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
+      <div className="flex md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
         <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
+          <GoArrowUpRight />
           <img
             className="w-full rounded-lg bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-800"
             src={Image3}
@@ -65,7 +67,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-end mr-20 mb-10">
+      <div className="flex justify-end mr-20 mb-20">
         <Button>Learn More</Button>
       </div>
       <Payment />
@@ -150,10 +152,12 @@ const Services = () => {
                 experts
               </p>
             </div>
-            <div className="relative">
+            <div className="relative ">
               <img className="rounded-md" src={frameImage1} alt="Experts" />
+
               <p className="absolute bg-white md:w-40 bottom-0 text-center py-4 rounded-lg">
                 Meet our best financial experts
+                <GoArrowUpRight />
               </p>
             </div>
           </div>
@@ -163,7 +167,7 @@ const Services = () => {
         <Transaction />
       </div>
 
-      <div className="pt-8 md:px-32 max-sm:px-5">
+      <div className=" mt-10 pt-8 md:px-32 max-sm:px-5">
         <div className="w-full mb-10">
           <h1 className="text-4xl  mb-8">Sectors we serve</h1>
           <p>

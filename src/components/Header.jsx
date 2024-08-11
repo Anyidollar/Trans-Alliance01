@@ -21,7 +21,6 @@ const Header = () => {
             alt="Discover More"
           />
         </div>
-
         <div className="h-auto absolute bottom-0 transform translate-y-1/2 w-full md:w-11/12 md:left-1/2 md:transform md:-translate-x-1/2 bg-white shadow-lg rounded-t-lg">
           <div className="rounded-t-lg md:ml-44 py-4 px-4">
             <p className="text-sm  md:text-lg">

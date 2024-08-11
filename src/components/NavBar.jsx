@@ -100,7 +100,7 @@ const NavBar = () => {
               </a>
               <a
                 href="/get started"
-                className="flex bg-green-600 font-[500] w-36  text-black px-4 py-2 rounded hover:bg-indigo-600"
+                className="flex bg-green-600 font-[500] w-36  text-black px-4 py-2 rounded-lg hover:bg-indigo-600"
               >
                 Get Started
                 <GoArrowUpRight />
