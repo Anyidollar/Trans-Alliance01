@@ -25,64 +25,69 @@ const Services = () => {
   return (
     <>
       <Header />
-      <About />
-      <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0">
-          <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
-          <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
-            SEPA Instant, SEPA & SWIFT
-          </p>
+      <div className=" bg-gradient-to-r from-white via-white to-green-50">
+        <About />
+        <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
+          <div className="relative md:mr-2  lg:mr-0 w-full md:w-1/3 lg:w-1/3 mb-10 md:mb-0">
+            <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
+            <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
+              SEPA Instant, SEPA & SWIFT
+            </p>
+          </div>
+          <div className="relative md:w-1/3 lg:w-1/3 lg:h-auto mb-10">
+            <img
+              className="w-full md:image rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
+              src={Image2}
+              alt="monitoring"
+            />
+            <p className="absolute ml-20 text-center max-sm:ml-36 transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60  rounded-lg w-80">
+              Customer portal for live transaction monitoring
+            </p>
+          </div>
         </div>
-        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
-          <img
-            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-green-300 via-green-400 to-yellow-500"
-            src={Image2}
-            alt="monitoring"
-          />
-          <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
-            Customer portal for live transaction monitoring
-          </p>
+        <div className="flex md:mt-16 max-sm:mt-6 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6">
+            <GoArrowUpRight className="text-2xl absolute top-4 right-6" />
+            <img
+              className="w-full rounded-lg bg-gradient-to-r from-[#F27405] to-[#D3BD00]"
+              src={Image3}
+              alt="Danish"
+            />
+            <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
+              Danish FSA regulated
+            </p>
+          </div>
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img
+              className="w-full h-full px-10"
+              src={Image4}
+              alt="90+ currencies served"
+            />
+            <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
+              90+ currencies served
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="flex md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
-          <GoArrowUpRight />
-          <img
-            className="w-full rounded-lg bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-800"
-            src={Image3}
-            alt="Danish"
-          />
-          <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
-            Danish FSA regulated
-          </p>
+        <div className="flex md:justify-end max-sm:ml-6 mb-20">
+          <Button>Learn More</Button>
         </div>
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
-          <img
-            className="w-full h-full px-10"
-            src={Image4}
-            alt="90+ currencies served"
-          />
-          <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
-            90+ currencies served
-          </p>
-        </div>
-      </div>
-      <div className="flex justify-end mr-20 mb-20">
-        <Button>Learn More</Button>
       </div>
       <Payment />
-      <div className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
+      <div
+        id="solution"
+        className="flex max-sm:flex-wrap lg:px-32 max-sm:px-4 md:px-10 mt-20"
+      >
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
-          <h3 className="text-lg font-semibold text-gray-700 mb-6">
+          <h3 className="text-lg font-DMSans font-semibold text-gray-700 mb-6">
             OUR SERVICE
           </h3>
           <div className="mt-4 p-2 items-start">
             <img className="mr-4" src={Hand} alt="Trusted Partner" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We are your trusted partner
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We are a dedicated and diligent team of <br /> payments
                 specialists that’s committed to helping <br /> you unlock
                 opportunity, create value and make <br /> payments happen,
@@ -93,10 +98,10 @@ const Services = () => {
           <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Star} alt="Network" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We provide the network you need
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We open access to a resilient global network <br /> spanning 90+
                 countries that’s built to simplify <br /> complex challenges and
                 move money at speed.
@@ -106,10 +111,10 @@ const Services = () => {
           <div className="mt-4 p-2  items-start">
             <img className="h-16 w-16 mr-4" src={Key} alt="Compliance" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-semibold font-DMSans">
                 We bring certainty through compliance
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We were born with compliance at our heart.
                 <br /> Licensed by the globally trusted Danish FSA, <br /> when
                 we move money you can be confident that <br /> it gets to the
@@ -120,10 +125,10 @@ const Services = () => {
           <div className="mt-4 p-2 items-start">
             <img className="h-16 w-16 mr-4" src={Human} alt="Expertise" />
             <div className="mt-2">
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-xl font-DMSans font-semibold">
                 We execute with expertise
               </h4>
-              <p className="mt-4">
+              <p className="mt-4 font-DMSans">
                 We complete an industry-leading 99% of payments <br /> for
                 customers in the fast-changing financial <br /> services,
                 iGaming, corporate and NGO sectors, <br /> drawing on 16 years
@@ -134,11 +139,11 @@ const Services = () => {
         </div>
         <div className="md:w-full lg:w-1/2 flex flex-col md:ml-0 lg:ml-10 max-sm:items-center">
           <div className="mr-0 lg:mr-14">
-            <h1 className="text-2xl font-semibold mb-4">
+            <h1 className="text-2xl font-semibold font-Gayathri mb-4">
               The Transalliance Group.
               <br /> difference
             </h1>
-            <p className="mt-4">
+            <p className="mt-4 font-DMSans">
               Our global payments network is powered by passionate <br />{" "}
               people, transparent customer relationships, and leading- <br />
               edge technology.
@@ -147,17 +152,17 @@ const Services = () => {
           <div className="flex max-sm:flex-wrap justify-center mt-16 mb-10 max-sm:mx-2">
             <div className="relative">
               <img className="rounded-md" src={frameImage} alt="Team" />
-              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg  transform -translate-x-1/2 text-center">
+              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg md:-left-6  lg:-left-10 text-center">
                 <span className="text-gray-400">OUR TEAM</span> <br /> Over 200
                 experts
               </p>
             </div>
-            <div className="relative ">
+            <div className="relative">
               <img className="rounded-md" src={frameImage1} alt="Experts" />
 
               <p className="absolute bg-white md:w-40 bottom-0 text-center py-4 rounded-lg">
                 Meet our best financial experts
-                <GoArrowUpRight />
+                <GoArrowUpRight className="text-2xl absolute left-40 top-10" />
               </p>
             </div>
           </div>
@@ -167,17 +172,17 @@ const Services = () => {
         <Transaction />
       </div>
 
-      <div className=" mt-10 pt-8 md:px-32 max-sm:px-5">
+      <div id="news" className=" mt-10 pt-8 lg:px-32 md:px-10 max-sm:px-5">
         <div className="w-full mb-10">
-          <h1 className="text-4xl  mb-8">Sectors we serve</h1>
-          <p>
+          <h1 className="text-4xl font-Gayathri mb-8">Sectors we serve</h1>
+          <p className="font-DMSans text-gray-600">
             We simplify the complexities of cross-border payments in some of the
             world’s most <br /> demanding sectors. Learn more about who we serve
             and how we add value below.
           </p>
         </div>
-        <div className="flex flex-wrap justify-between w-full">
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+        <div className="flex mr-2 flex-wrap justify-between">
+          <div className="relative md:w-1/3  lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={House} alt="Financial Services" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
               Financial Services
@@ -187,7 +192,7 @@ const Services = () => {
               </span>
             </p>
           </div>
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Computer} alt="iGaming" />
             <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
               iGaming <br />
@@ -198,26 +203,35 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between w-full md:mt-10">
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+        <div className="flex flex-wrap justify-between mr-2 md:mt-10">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Field} alt="NGOs" />
-            <p className="absolute text-sm bg-neutral-300 md:left-60 top-4 px-6 py-1 rounded-lg">
-              NGOs
-              <span className="flex">
-                Learn More{" "}
-                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
-              </span>
-            </p>
+            <div className="absolute w-40 text-sm bg-neutral-300 md:left-40 top-4 lg:px-6 py-1 rounded-lg">
+              <div className="px-2">
+                NGOs
+                <span className="flex">
+                  Learn More{" "}
+                  <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Library} alt="Corporate" />
-            <p className="absolute text-sm bg-neutral-300 md:right-60 -bottom-4 px-6 py-1 rounded-lg">
+            {/* <p className="absolute text-sm bg-neutral-300 md:right-40 -bottom-4 px-6 py-1 rounded-lg">
               Corporates
               <span className="flex">
                 Learn More{" "}
                 <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
               </span>
-            </p>
+            </p> */}
+            <div className="absolute  p-4 w-40 text-sm bg-neutral-300 md:-left-20 bottom-0 lg:px-6 py-1 rounded-lg">
+              Corporates
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+              </span>
+            </div>
           </div>
         </div>
       </div>
