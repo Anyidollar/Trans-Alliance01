@@ -2,7 +2,7 @@ import Laptop from "../assets/LaptopFrame.svg";
 
 const Heading = () => {
   return (
-    <div className="flex flex-wrap items-center ml-10 mb-10">
+    <div id="home" className="flex flex-wrap items-center ml-10 mb-10">
       <div className="flex flex-col  max-sm:p-10 md:p-10">
         <p className="text-sm font-DMSans text-yellow-600 max-sm:mb-4 md:mr-auto md:mb-4">
           Simplified cross-border payment
@@ -19,8 +19,12 @@ const Heading = () => {
         </p>
       </div>
       <div className="flex justify-center md:flex-col relative md:w-2/5">
-        <img className="max-sm:ml-5 ml-40 w-full" src={Laptop} alt="Header" />
-        <div className="absolute max-sm:w-60 bg-white/70 max-sm:top-20 md:top-44 p-2 rounded-lg transform md:translate-x-0 md:left-36 max-sm:left-6 mt-3">
+        <img
+          className="max-sm:ml-5 md:mr-40 w-screen"
+          src={Laptop}
+          alt="Header"
+        />
+        <div className="absolute max-sm:w-60 bg-white/70 max-sm:top-20 md:top-44 p-2 rounded-lg transform md:translate-x-0 md:-left-10 max-sm:left-6 mt-3">
           <p className="flex items-center justify-center">
             24/7, 365 transaction tracking
           </p>

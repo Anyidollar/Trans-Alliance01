@@ -71,7 +71,7 @@ const Services = () => {
         <Button>Learn More</Button>
       </div>
       <Payment />
-      <div className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
+      <div id="solution" className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
           <h3 className="text-lg font-DMSans font-semibold text-gray-700 mb-6">
             OUR SERVICE
@@ -167,7 +167,7 @@ const Services = () => {
         <Transaction />
       </div>
 
-      <div className=" mt-10 pt-8 md:px-32 max-sm:px-5">
+      <div id="news" className=" mt-10 pt-8 md:px-32 max-sm:px-5">
         <div className="w-full mb-10">
           <h1 className="text-4xl font-Gayathri mb-8">Sectors we serve</h1>
           <p className="font-DMSans text-gray-600">

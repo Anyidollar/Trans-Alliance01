@@ -6,7 +6,7 @@ const Transaction = () => {
       <div className="md:flex-1">
         <img src={logo1} alt="logo" />
       </div>
-      <div className="md:flex-1 max-sm:py-5 max-sm:px-2 md:mt-[5.5rem] bg-green-500">
+      <div className="md:flex-1 max-sm:py-5 max-sm:px-2 md:mt-[5.5rem] bg-green-300">
         <div className="md:py-10 md:px-20">
           <h2 className="text-3xl font-Gayathri">
             One portal, <br /> every transaction
