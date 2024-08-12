@@ -25,50 +25,52 @@ const Services = () => {
   return (
     <>
       <Header />
-      <About />
-      <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0">
-          <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
-          <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
-            SEPA Instant, SEPA & SWIFT
-          </p>
+      <div className=" bg-gradient-to-r from-white via-white to-green-50">
+        <About />
+        <div className="flex  flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0">
+            <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
+            <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
+              SEPA Instant, SEPA & SWIFT
+            </p>
+          </div>
+          <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
+            <img
+              className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
+              src={Image2}
+              alt="monitoring"
+            />
+            <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
+              Customer portal for live transaction monitoring
+            </p>
+          </div>
         </div>
-        <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
-          <img
-            className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
-            src={Image2}
-            alt="monitoring"
-          />
-          <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
-            Customer portal for live transaction monitoring
-          </p>
+        <div className="flex  md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
+            <GoArrowUpRight />
+            <img
+              className="w-full rounded-lg bg-gradient-to-r from-[#F27405] to-[#D3BD00]"
+              src={Image3}
+              alt="Danish"
+            />
+            <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
+              Danish FSA regulated
+            </p>
+          </div>
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+            <img
+              className="w-full h-full px-10"
+              src={Image4}
+              alt="90+ currencies served"
+            />
+            <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
+              90+ currencies served
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="flex md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
-          <GoArrowUpRight />
-          <img
-            className="w-full rounded-lg bg-gradient-to-r from-[#F27405] to-[#D3BD00]"
-            src={Image3}
-            alt="Danish"
-          />
-          <p className="absolute text-center transform md:-translate-x-1/2 top-16 bg-neutral-200 p-2 rounded-lg md:w-34 ">
-            Danish FSA regulated
-          </p>
+        <div className="flex justify-end mr-20 mb-20">
+          <Button>Learn More</Button>
         </div>
-        <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
-          <img
-            className="w-full h-full px-10"
-            src={Image4}
-            alt="90+ currencies served"
-          />
-          <p className="absolute text-center max-sm:w-60 ml-16 left-1/3 transform -translate-x-1/2 -bottom-12 bg-neutral-200 p-4 rounded-lg">
-            90+ currencies served
-          </p>
-        </div>
-      </div>
-      <div className="flex justify-end mr-20 mb-20">
-        <Button>Learn More</Button>
       </div>
       <Payment />
       <div
