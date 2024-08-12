@@ -207,7 +207,7 @@ const Services = () => {
           <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Field} alt="NGOs" />
             <div className="absolute w-40 text-sm bg-neutral-300 md:left-40 top-4 lg:px-6 py-1 rounded-lg">
-              <div className="px-2">
+              <div className="absolute p-4 w-40 text-sm bg-neutral-300 md:left-40 -bottom-20 lg:px-6 py-1 rounded-lg">
                 NGOs
                 <span className="flex">
                   Learn More{" "}
@@ -218,13 +218,6 @@ const Services = () => {
           </div>
           <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Library} alt="Corporate" />
-            {/* <p className="absolute text-sm bg-neutral-300 md:right-40 -bottom-4 px-6 py-1 rounded-lg">
-              Corporates
-              <span className="flex">
-                Learn More{" "}
-                <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
-              </span>
-            </p> */}
             <div className="absolute  p-4 w-40 text-sm bg-neutral-300 md:-left-20 bottom-0 lg:px-6 py-1 rounded-lg">
               Corporates
               <span className="flex">
