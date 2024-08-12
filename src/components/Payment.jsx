@@ -5,9 +5,9 @@ const Payment = () => {
   return (
     <div
       id="more"
-      className="flex  my-2 mx-2 flex-wrap justify-center items-center md:items-end"
+      className="flex my-2 mx-2 flex-wrap lg:justify-center lg:items-center md:items-end"
     >
-      <div className="w-full md:w-1/2 bg-green-300 p-6 md:p-10">
+      <div className="w-full md:w-full lg:w-1/2  bg-green-300 p-6 mt-auto md:p-10">
         <div className="max-w-lg mx-auto md:mx-0 md:pl-20">
           <h2 className="text-2xl font-DMSans md:text-3xl  mb-4">
             The human-powered <br /> payments network
@@ -22,8 +22,8 @@ const Payment = () => {
           </Button>
         </div>
       </div>
-      <div className="w-full md:w-1/2  flex justify-center md:justify-end mt-6 md:mt-0">
-        <img className="w-full" src={Layer} alt="Layer illustration" />
+      <div className="w-full md:w-full  lg:w-1/2 flex justify-center md:justify-end mt-6 md:mt-4">
+        <img className="w-full" src={Layer} alt="Illustration" />
       </div>
     </div>
   );

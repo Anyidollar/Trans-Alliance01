@@ -27,27 +27,27 @@ const Services = () => {
       <Header />
       <div className=" bg-gradient-to-r from-white via-white to-green-50">
         <About />
-        <div className="flex  flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
-          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0">
+        <div className="flex flex-wrap items-center justify-between max-sm:px-4 md:px-32 max-sm:mt-6 md:mt-14">
+          <div className="relative md:mr-2  lg:mr-0 w-full md:w-1/3 lg:w-1/3 mb-10 md:mb-0">
             <img className="w-full" src={Image1} alt="SEPA & SWIFT" />
             <p className="absolute text-center  left-1/2 transform -translate-x-1/2 -bottom-6 bg-neutral-300 p-2 rounded-lg w-60">
               SEPA Instant, SEPA & SWIFT
             </p>
           </div>
-          <div className="relative md:w-1/2 lg:w-1/3 lg:h-auto mb-10">
+          <div className="relative md:w-1/3 lg:w-1/3 lg:h-auto mb-10">
             <img
-              className="w-full rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
+              className="w-full md:image rounded-lg border-2 border-blue-300 bg-gradient-to-r from-[#D3BD00] via-[#A5D1A3] to-[#5AAF87]"
               src={Image2}
               alt="monitoring"
             />
-            <p className="absolute ml-36 text-center transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60 p-2 rounded-lg w-80">
+            <p className="absolute ml-20 text-center max-sm:ml-36 transform -translate-x-1/2 -bottom-10 bg-neutral-200 max-sm:w-60  rounded-lg w-80">
               Customer portal for live transaction monitoring
             </p>
           </div>
         </div>
-        <div className="flex  md:mt-16 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
-          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-">
-            <GoArrowUpRight />
+        <div className="flex md:mt-16 max-sm:mt-6 flex-wrap items-center justify-end max-sm:px-4 md:px-32 mb-10">
+          <div className="relative w-full md:w-1/2 lg:w-1/3 mb-6">
+            <GoArrowUpRight className="text-2xl absolute top-4 right-6" />
             <img
               className="w-full rounded-lg bg-gradient-to-r from-[#F27405] to-[#D3BD00]"
               src={Image3}
@@ -68,14 +68,14 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-end mr-20 mb-20">
+        <div className="flex md:justify-end max-sm:ml-6 mb-20">
           <Button>Learn More</Button>
         </div>
       </div>
       <Payment />
       <div
         id="solution"
-        className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20"
+        className="flex max-sm:flex-wrap lg:px-32 max-sm:px-4 md:px-10 mt-20"
       >
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
           <h3 className="text-lg font-DMSans font-semibold text-gray-700 mb-6">
@@ -152,17 +152,17 @@ const Services = () => {
           <div className="flex max-sm:flex-wrap justify-center mt-16 mb-10 max-sm:mx-2">
             <div className="relative">
               <img className="rounded-md" src={frameImage} alt="Team" />
-              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg  transform -translate-x-1/2 text-center">
+              <p className="absolute p-2 md:w-40 max-sm:ml-20 font-semibold top-6 bg-gray-50 rounded-lg md:-left-6  lg:-left-10 text-center">
                 <span className="text-gray-400">OUR TEAM</span> <br /> Over 200
                 experts
               </p>
             </div>
-            <div className="relative ">
+            <div className="relative">
               <img className="rounded-md" src={frameImage1} alt="Experts" />
 
               <p className="absolute bg-white md:w-40 bottom-0 text-center py-4 rounded-lg">
                 Meet our best financial experts
-                <GoArrowUpRight />
+                <GoArrowUpRight className="text-2xl absolute left-40 top-10" />
               </p>
             </div>
           </div>
@@ -172,7 +172,7 @@ const Services = () => {
         <Transaction />
       </div>
 
-      <div id="news" className=" mt-10 pt-8 md:px-32 max-sm:px-5">
+      <div id="news" className=" mt-10 pt-8 lg:px-32 md:px-10 max-sm:px-5">
         <div className="w-full mb-10">
           <h1 className="text-4xl font-Gayathri mb-8">Sectors we serve</h1>
           <p className="font-DMSans text-gray-600">
@@ -182,7 +182,7 @@ const Services = () => {
           </p>
         </div>
         <div className="flex mr-2 flex-wrap justify-between">
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3  lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={House} alt="Financial Services" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
               Financial Services
@@ -192,7 +192,7 @@ const Services = () => {
               </span>
             </p>
           </div>
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Computer} alt="iGaming" />
             <p className="absolute text-sm bg-neutral-300 md:-left-8 top-4 px-6 py-1 rounded-lg">
               iGaming <br />
@@ -204,25 +204,34 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-between mr-2 md:mt-10">
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Field} alt="NGOs" />
-            <p className="absolute text-sm bg-neutral-300 md:left-40 top-4 px-6 py-1 rounded-lg">
-              NGOs
-              <span className="flex">
-                Learn More{" "}
-                <IoIosArrowDroprightCircle className="bg-green-400 text-2xl ml-2 rounded-full" />
-              </span>
-            </p>
+            <div className="absolute w-40 text-sm bg-neutral-300 md:left-40 top-4 lg:px-6 py-1 rounded-lg">
+              <div className="px-2">
+                NGOs
+                <span className="flex">
+                  Learn More{" "}
+                  <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+          <div className="relative md:w-1/3 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Library} alt="Corporate" />
-            <p className="absolute text-sm bg-neutral-300 md:right-40 -bottom-4 px-6 py-1 rounded-lg">
+            {/* <p className="absolute text-sm bg-neutral-300 md:right-40 -bottom-4 px-6 py-1 rounded-lg">
               Corporates
               <span className="flex">
                 Learn More{" "}
                 <IoIosArrowDroprightCircle className="  bg-green-400 text-2xl ml-2 rounded-full" />
               </span>
-            </p>
+            </p> */}
+            <div className="absolute  p-4 w-40 text-sm bg-neutral-300 md:-left-20 bottom-0 lg:px-6 py-1 rounded-lg">
+              Corporates
+              <span className="flex">
+                Learn More{" "}
+                <IoIosArrowDroprightCircle className="text-2xl ml-2 rounded-full bg-green-400" />
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ import logo1 from "../assets/Frame 524tab.svg";
 
 const Transaction = () => {
   return (
-    <div className="flex my-2 mx-2 flex-wrap md:items-end">
-      <div className="md:flex-1">
+    <div className="flex my-2 mx-2 flex-wrap  md:items-end">
+      <div className="lg:flex-1">
         <img src={logo1} alt="logo" />
       </div>
-      <div className="md:flex-1 max-sm:py-5 max-sm:px-2 md:mt-[5.5rem] bg-green-300">
+      <div className="md:flex-1 max-sm:py-5 max-sm:px-2 lg:mt-[5.5rem] bg-green-300">
         <div className="md:py-10 md:px-20">
           <h2 className="text-3xl font-Gayathri">
             One portal, <br /> every transaction

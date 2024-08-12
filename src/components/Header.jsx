@@ -14,8 +14,8 @@ const Header = () => {
           id="started"
           className="relative flex justify-center md:justify-start"
         >
-          <a href="#more" className="ml-6">
-            <p className="absolute  -top-8 px-4 py-4 bg-gray-to-blue text-center text-sm sm:text-base md:text-lg rounded-lg md:w-1/4 flex items-center justify-around">
+          <a href="#more">
+            <p className="absolute -top-8 px-4 py-4 ml-20 bg-gray-to-blue text-center text-sm sm:text-base md:text-lg rounded-lg md:w-1/4 flex items-center justify-around">
               <span className="text-white font-DMSans">Discover More</span>
               <IoIosArrowDroprightCircle className="text-2xl max-sm:ml-10 rounded-full" />
             </p>

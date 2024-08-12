@@ -13,7 +13,7 @@ const Heading = () => {
         <p className="text-4xl font-Gayathri md:text-6xl lg:text-8xl text-white">
           We are the <br className="hidden md:block" /> payments people
         </p>
-        <p className="text-white font-DMSans text-sm md:text-left">
+        <p className="text-white  font-DMSans text-sm md:text-left">
           Transalliance Group’s cross-border payments solutions connect{" "}
           <br className="hidden md:block" />
           organizations and communities globally to the network they need{" "}
@@ -21,9 +21,9 @@ const Heading = () => {
           to thrive. Together, we make money move.
         </p>
       </div>
-      <div className="flex justify-center md:flex-col relative md:w-2/5">
+      <div className="flex md:ml-40 lg:ml-0 justify-center md:flex-col relative md:w-2/5">
         <img
-          className="max-sm:ml-5 md:mr-40 w-screen"
+          className="max-sm:ml-5 md:mr-40  w-screen"
           src={Laptop}
           alt="Header"
         />
