@@ -71,7 +71,10 @@ const Services = () => {
         <Button>Learn More</Button>
       </div>
       <Payment />
-      <div id="solution" className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20">
+      <div
+        id="solution"
+        className="flex max-sm:flex-wrap max-sm:px-4 md:px-32 mt-20"
+      >
         <div className="flex flex-col md:w-full lg:w-1/2 mb-10">
           <h3 className="text-lg font-DMSans font-semibold text-gray-700 mb-6">
             OUR SERVICE
@@ -176,7 +179,7 @@ const Services = () => {
             and how we add value below.
           </p>
         </div>
-        <div className="flex flex-wrap justify-between w-full">
+        <div className="flex mr-2 flex-wrap justify-between">
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={House} alt="Financial Services" />
             <p className="absolute text-sm bg-neutral-300 md:-right-12 bottom-8 px-6 py-1 rounded-lg">
@@ -198,10 +201,10 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between w-full md:mt-10">
+        <div className="flex flex-wrap justify-between mr-2 md:mt-10">
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Field} alt="NGOs" />
-            <p className="absolute text-sm bg-neutral-300 md:left-60 top-4 px-6 py-1 rounded-lg">
+            <p className="absolute text-sm bg-neutral-300 md:left-40 top-4 px-6 py-1 rounded-lg">
               NGOs
               <span className="flex">
                 Learn More{" "}
@@ -211,7 +214,7 @@ const Services = () => {
           </div>
           <div className="relative md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
             <img className="m-2" src={Library} alt="Corporate" />
-            <p className="absolute text-sm bg-neutral-300 md:right-60 -bottom-4 px-6 py-1 rounded-lg">
+            <p className="absolute text-sm bg-neutral-300 md:right-40 -bottom-4 px-6 py-1 rounded-lg">
               Corporates
               <span className="flex">
                 Learn More{" "}

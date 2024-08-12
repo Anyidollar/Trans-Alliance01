@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Payment = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center md:items-end">
+    <div className="flex my-2 mx-2 flex-wrap justify-center items-center md:items-end">
       <div className="w-full md:w-1/2 bg-green-300 p-6 md:p-10">
         <div className="max-w-lg mx-auto md:mx-0 md:pl-20">
           <h2 className="text-2xl font-DMSans md:text-3xl  mb-4">

@@ -8,7 +8,7 @@ const Sales = () => {
         <img
           src={Image}
           alt="Illustration"
-          className="w-full max-w-xl"
+          className="w-full md:ml-10 max-w-xl"
           loading="lazy"
         />
       </div>

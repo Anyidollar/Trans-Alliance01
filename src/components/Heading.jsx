@@ -2,8 +2,11 @@ import Laptop from "../assets/LaptopFrame.svg";
 
 const Heading = () => {
   return (
-    <div id="home" className="flex flex-wrap items-center ml-10 mb-10">
-      <div className="flex flex-col  max-sm:p-10 md:p-10">
+    <div
+      id="home"
+      className="flex mx-4 my-4 flex-wrap items-center ml-10 mb-10"
+    >
+      <div className="flex flex-col  max-sm:p-2 md:p-10">
         <p className="text-sm font-DMSans text-yellow-600 max-sm:mb-4 md:mr-auto md:mb-4">
           Simplified cross-border payment
         </p>

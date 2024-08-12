@@ -10,13 +10,16 @@ const Header = () => {
       <header className="relative bg-gradient-to-r from-[#122038] via-[#254a72] to-[#3b7ba6] mt-0">
         <NavBar />
         <Heading />
-        <div className="relative flex justify-center md:justify-start">
+        <div
+          id="started"
+          className="relative flex justify-center md:justify-start"
+        >
           <p className="absolute md:left-60 -top-8 px-4 py-4 bg-gray-500 text-center text-sm sm:text-base md:text-lg rounded-lg md:w-1/4 flex items-center justify-around">
             <span className="text-white font-DMSans">Discover More</span>
-            <IoIosArrowDroprightCircle className="text-2xl rounded-full" />
+            <IoIosArrowDroprightCircle className="text-2xl max-sm:ml-10 rounded-full" />
           </p>
           <img
-            className="md:w-2/3 max-sm:w-2/3"
+            className="md:w-2/3 max-sm:w-auto"
             src={More}
             alt="Discover More"
           />

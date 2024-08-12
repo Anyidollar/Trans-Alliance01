@@ -4,7 +4,7 @@ import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
 
 const Footer = () => {
   return (
-    <div  id="footer" className="flex flex-col p-4 sm:p-8 w-full">
+    <div  id="footer" className="flex max-sm:items-center flex-col p-4 sm:p-8 w-full">
       <div className="flex flex-col md:flex-row justify-between mb-8">
         <div className="flex flex-col mb-8 md:mb-0">
           <div className="flex items-center mb-4">

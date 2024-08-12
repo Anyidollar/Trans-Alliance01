@@ -2,7 +2,7 @@ import logo1 from "../assets/Frame 524tab.svg";
 
 const Transaction = () => {
   return (
-    <div className="flex flex-wrap md:items-end">
+    <div className="flex my-2 mx-2 flex-wrap md:items-end">
       <div className="md:flex-1">
         <img src={logo1} alt="logo" />
       </div>
